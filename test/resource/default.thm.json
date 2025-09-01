@@ -1,0 +1,17 @@
+{
+	"skins": {
+		"Scene.Game.Main": "resource/eui_skins/game/Main.exml",
+		"Scene.Cover.Main": "resource/eui_skins/cover/Main.exml",
+		"Scene.Common": "resource/eui_skins/Common.exml",
+		"Scene.Game.Key": "resource/eui_skins/game/Key.exml",
+		"Scene.Game.Cell": "resource/eui_skins/game/Cell.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/Common.exml",
+		"resource/eui_skins/game/Cell.exml",
+		"resource/eui_skins/game/Key.exml",
+		"resource/eui_skins/game/Main.exml"
+	],
+	"path": "resource/default.thm.json"
+}

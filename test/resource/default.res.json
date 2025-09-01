@@ -1,0 +1,26 @@
+{
+	"groups": [
+		{
+			"keys": "game0_json,answerlist_txt,wordlist_txt",
+			"name": "common"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/game0.json",
+			"type": "sheet",
+			"name": "game0_json",
+			"subkeys": "b_A,b_B,b_C,b_D,b_E,b_F,b_G,b_H,b_I,b_J,b_K,b_L,b_M,b_N,b_O,b_P,b_Q,b_R,b_S,b_T,b_U,b_V,b_W,b_X,b_Y,b_Z,img_0,img_1,img_10,img_2,img_3,img_4,img_5,img_6,img_7,img_8,img_9,w_A,w_B,w_C,w_D,w_E,w_F,w_G,w_H,w_I,w_J,w_K,w_L,w_M,w_N,w_O,w_P,w_Q,w_R,w_S,w_T,w_U,w_V,w_W,w_X,w_Y,w_Z"
+		},
+		{
+			"url": "answerlist.txt",
+			"type": "text",
+			"name": "answerlist_txt"
+		},
+		{
+			"url": "wordlist.txt",
+			"type": "text",
+			"name": "wordlist_txt"
+		}
+	]
+}

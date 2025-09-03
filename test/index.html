@@ -5,6 +5,9 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <title>Wordle Game</title>
+    <meta name="description"
+        content="Play Wordle online for free in your browser. Challenge your vocabulary and logic daily. Works on desktop and mobile.">
+
     <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,6 +15,34 @@
     <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:title" content="Wordle Online">
+    <meta property="og:description"
+        content="A free HTML5 Wordle word game. Daily word challenges for your vocabulary and logic. Play on desktop or mobile.">
+    <!-- <meta property="og:image" content="https://example.com/cover.jpg"> -->
+    <meta property="og:url" content="https://wordle.game">
+    <meta property="og:type" content="game">
+
+    <!-- Twitter Card -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wordle Online">
+    <meta name="twitter:description"
+        content="HTML5 Wordle word game. Daily word challenges for your vocabulary. Play online for free.">
+    <meta name="twitter:image" content="https://example.com/cover.jpg"> -->
+
+    <!-- Structured data (VideoGame) -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Wordle Game",
+    "description": "A free HTML5 Wordle word game. Challenge your vocabulary and logic daily. Works on desktop and mobile.",
+    "operatingSystem": "All",
+    "applicationCategory": "Game",
+    "url": "https://wordle.game"
+  }
+  </script>
     <style>
         html,
         body {
@@ -22,9 +53,7 @@
             margin: 0;
             height: 100%;
         }
-    </style>
 
-    <style>
         /* 广告容器样式 */
         #ad-container {
             position: fixed;
@@ -52,6 +81,14 @@
             justify-content: center;
             font-size: 24px;
             z-index: 9999;
+        }
+
+        #seo-text {
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #555;
         }
     </style>
 </head>
@@ -141,7 +178,21 @@
                 });
             });
         });
-        xhr.send(null);</script>
+        xhr.send(null);
+
+    </script>
+
+
+    <!-- SEO-readable text -->
+    <div id="seo-text">
+        <h1>Wordle Game</h1>
+        <p>Wordle is a popular HTML5 word guessing game. Play a new daily word challenge in your browser for free. No
+            download required. Works on desktop and mobile.</p>
+        <p>Guess the hidden word by trying different words. After each guess, the game will indicate which letters are
+            correct and in the right position, helping you solve the puzzle.</p>
+        <p>Improve your vocabulary and have fun with daily challenges. Share your scores and challenge friends!</p>
+    </div>
+
 </body>
 
 </html>

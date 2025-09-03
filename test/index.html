@@ -90,6 +90,18 @@
             line-height: 1.5;
             color: #555;
         }
+
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            border: 0;
+        }
     </style>
 </head>
 
@@ -184,7 +196,7 @@
 
 
     <!-- SEO-readable text -->
-    <div id="seo-text">
+    <div id="visually-hidden">
         <h1>Wordle Game</h1>
         <p>Wordle is a popular HTML5 word guessing game. Play a new daily word challenge in your browser for free. No
             download required. Works on desktop and mobile.</p>
